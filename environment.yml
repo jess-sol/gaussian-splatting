@@ -12,6 +12,16 @@ dependencies:
   - torchaudio=0.12.1
   - torchvision=0.13.1
   - tqdm
+  - pillow
+  - numpy
+  - pandas
+  - scikit-learn
   - pip:
+    - open3d
+    - addict
+    - pyyaml
+    - pye57
+    - numpy-quaternion
+    - importlib-metadata==1.4
     - submodules/diff-gaussian-rasterization
     - submodules/simple-knn
